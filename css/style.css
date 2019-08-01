@@ -1,0 +1,120 @@
+ /*home_index*/
+ 
+ #home_index {
+     background: url(../img/APP_BG.jpg) no-repeat;
+     -webkit-background-size: 100% 100%;
+     background-size: 100% 100%;
+ }
+ 
+ #home_index a,
+ #home_index div {
+     background: transparent;
+     border: none;
+ }
+ /*page_header*/
+ 
+ .page_header a {
+     border: none;
+     box-shadow: none;
+     height: 35%;
+     background: transparent !important;
+ }
+ /*price_page*/
+ 
+ .bg1 {
+     background: url(../img/price/bottomlong.png) -100px bottom no-repeat;
+     text-align: center;
+     padding-bottom: 5px;
+     margin-bottom: 20px;
+ }
+ 
+ .bg2 {
+     background: url(../img/price/bottomshort.png) -48px bottom no-repeat;
+     text-align: center;
+     width: 90%;
+     padding-bottom: 5px;
+     margin-right: auto;
+     margin-left: auto;
+     margin-bottom: 20px;
+ }
+ 
+ .r {
+     float: right;
+ }
+ 
+ .l {
+     float: left;
+ }
+ 
+ .mr-top {
+     margin-top: 2px;
+ }
+ /*member_page*/
+ 
+ #list-color a {
+     border-radius: 0;
+     color: white;
+     background: linear-gradient(top, #0d46c6 5%, #0f28af 95%, #0d46c6 100%);
+     background: -moz-linear-gradient(top, #0d46c6 5%, #0f28af 95%, #0d46c6 100%);
+     background: -webkit-linear-gradient(top, #0d46c6 5%, #0f28af 95%, #0d46c6 100%);
+ }
+ #file form label,#change-pw form label,#qa form label{
+    margin-top: 15px;
+ }
+/*#sex label{
+    background: white;
+    color: #333;
+}
+#sex label:active{
+    background: #21C4ED;
+}*/
+.ui-radio .ui-btn.ui-corner-all.ui-btn-inherit.ui-last-child.ui-radio-off,
+.ui-radio .ui-btn.ui-corner-all.ui-btn-inherit.ui-first-child.ui-radio-off{
+    background: #fff;
+}
+#qa textarea {
+    resize:none;
+}
+ .member-content {
+     background-color: #0a22a3;
+     margin: 10px;
+     color: white;
+ }
+ /*order_page*/
+ 
+ .got-day p {
+     border: 1px solid black;
+     margin-left: 5px;
+     padding: 5px;
+     text-align: center;
+ }
+ 
+ .bdr_none {
+     border: none !important;
+ }
+ 
+ .day_bg {
+     background: #00BAC7;
+     padding: 0 15px;
+ }
+ 
+ table.list th {
+     padding: 20px 5px;
+     font-size: 20px;
+     color: white;
+     background: #00BAC7;
+     font-weight: normal;
+ }
+ 
+ button[type="submit"].confirm,
+ button[type="submit"].confirm:hover,
+ button[type="submit"].confirm:active,
+ button[type="submit"].confirm:visited {
+     color: white;
+     background-color: #237dcb;
+     border: 1px solid #2139f2;
+ }
+ 
+ .ui-grid-c a {
+     color: #333333 !important;
+ }
