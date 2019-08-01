@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html" harset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>index</title>
+    <!--JQuery Mobile Plugin-->
+    <link rel="stylesheet" href="css/themes/mypages.css">
+    <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css">
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="jquery.mobile-1.4.5/jquery.mobile-1.4.5.js"></script>
+</head>
+
+<body>
+    <!--start-->
+    <!--home_index-->
+    <div data-role="page" id="home_index">
+        <div data-role="header">
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="#about_page">
+                            <img src="img/about.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#use_page">
+                            <img src="img/how.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#member_page">
+                            <img src="img/member.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div data-role="content" style="text-align:center;padding-top:25px">
+            <img src="img/newlogo.png" alt="" style="width:50%">
+        </div>
+        <div data-role="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="#time_page">
+                            <img src="img/time.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#price_page">
+                            <img src="img/price.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#order_page">
+                            <img src="img/order-icon.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--about_page-->
+    <div data-role="page" id="about_page">
+        <div data-role="header" class="page_header">
+            <a href="#home_index" data-role="button" data-icon="home"></a>
+            <h1>關於我們</h1>
+            <a href="#" data-role="button" data-icon="back" data-rel="back"></a>
+        </div>
+        <div data-role="content">
+            <p>隨著時代的改變,</p>
+            <p>現代人生活越來越繁忙,</p>
+            <p>越來越沒有時間及心力來管理生活的鎖事,</p>
+            <p>我們想,</p>
+            <p>何不藉由科技的進步,來幫助我們解決生活中的雜事呢?</p>
+            <p>所以,</p>
+            <p>陽光聯盟孕育出一個以便利服務消費者,</p>
+            <p>將消費者洗衣的瑣事交給我們處理,</p>
+            <p>讓生活繁忙的現代人,能夠將心思專注在重要的事情上。</p>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul class="ui-grid-c">
+                    <li class="ui-block-a">
+                        <a href="#about_page">
+                            <img src="img/about2.png" alt="">
+                            <br>關於我們</a>
+                    </li>
+                    <li class="ui-block-b">
+                        <a href="#price_page">
+                            <img src="img/price2.png" alt="">
+                            <br>種類價格</a>
+                    </li>
+                    <li class="ui-block-c">
+                        <a href="#order_page">
+                            <img src="img/order2.png" alt="">
+                            <br>立即下單</a>
+                    </li>
+                    <li class="ui-block-d">
+                        <a href="#member_page">
+                            <img src="img/member2.png" alt="">
+                            <br>會員專區</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--use_page-->
+    <div data-role="page" id="use_page">
+        <div data-role="header" class="page_header">
+            <a href="#home_index" data-role="button" data-icon="home"></a>
+            <h1>使用說明</h1>
+            <a href="#" data-role="button" data-icon="back" data-rel="back"></a>
+        </div>
+        <div data-role="content" style="text-align:center">
+            <p>APP使用流程：</p>
+            <p>STEP1：使用APP登入會員。</p>
+            <p>STEP2：點擊『立即下單(Order Now)』按鈕。</p>
+            <p>STEP3：選擇待洗衣物總額、訂單資料及附註，系統會自動進行價格試算。</p>
+            <p>STEP4：選擇交件地址及時段。(系統偵測當前時間之1小時後時段才可選)。</p>
+            <p>STEP5：選擇收件地址及時段。(若選擇為一天後須加價50元，若為兩天以上則不須加價，最多不得超過三天)</p>
+            <p>STEP6：完成下單！工作人員將於指定時間前往取件！</p>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul class="ui-grid-c">
+                    <li class="ui-block-a">
+                        <a href="#about_page">
+                            <img src="img/about2.png" alt="">
+                            <br>關於我們</a>
+                    </li>
+                    <li class="ui-block-b">
+                        <a href="#price_page">
+                            <img src="img/price2.png" alt="">
+                            <br>種類價格</a>
+                    </li>
+                    <li class="ui-block-c">
+                        <a href="#order_page">
+                            <img src="img/order2.png" alt="">
+                            <br>立即下單</a>
+                    </li>
+                    <li class="ui-block-d">
+                        <a href="#member_page">
+                            <img src="img/member2.png" alt="">
+                            <br>會員專區</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- member_page start -->
+    <!--memeber index-->
+    <div data-role="page" id="member_page">
+        <div data-role="header" class="page_header" style="border-bottom:none">
+            <a href="#home_index" data-role="button" data-icon="home"></a>
+            <h1>會員專區</h1>
+            <a href="#" data-role="button" data-icon="back" data-rel="back"></a>
+        </div>
+        <div data-role="content">
+            <ul data-role="listview" id="list-color">
+                <li style="border-top:none">
+                    <a href="#cost-record" data-role="button" data-icon="tag">消費紀錄</a>
+                </li>
+                <li>
+                    <a href="#file" data-role="button" data-icon="grid">基本資料</a>
+                </li>
+                <li>
+                    <a href="#change-pw" data-role="button" data-icon="gear">密碼修改</a>
+                </li>
+                <li>
+                    <a href="#use_page" data-role="button" data-icon="info">使用說明</a>
+                </li>
+                <li>
+                    <a href="#qa" data-role="button" data-icon="mail">客服聯絡</a>
+                </li>
+                <li>
+                    <a href="#logout" data-role="button" data-icon="action">登出會員</a>
+                </li>
+            </ul>
+
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul class="ui-grid-c">
+                    <li class="ui-block-a">
+                        <a href="#about_page">
+                            <img src="img/about2.png" alt="">
+                            <br>關於我們</a>
+                    </li>
+                    <li class="ui-block-b">
+                        <a href="#price_page">
+                            <img src="img/price2.png" alt="">
+                            <br>種類價格</a>
+                    </li>
+                    <li class="ui-block-c">
+                        <a href="#order_page">
+                            <img src="img/order2.png" alt="">
+                            <br>立即下單</a>
+                    </li>
+                    <li class="ui-block-d">
+                        <a href="#member_page">
+                            <img src="img/member2.png" alt="">
+                            <br>會員專區</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--消費紀錄-->
+    <div data-role="page" id="cost-record">
+        <div data-role="header" class="page_header">
+            <a href="#home_index" data-role="button" data-icon="home"></a>
+            <h1>消費紀錄</h1>
+            <a href="#" data-role="button" data-icon="back" data-rel="back"></a>
+        </div>
+        <div data-role="content">
+            <div style="text-align:center;padding:5px" class="ui-corner-all">
+                <button type="button" style="width:100px;float:right">畫面重整</button>
+                <p style="clear:both">無消費紀錄</p>
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul class="ui-grid-c">
+                    <li class="ui-block-a">
+                        <a href="#about_page">
+                            <img src="img/about2.png" alt="">
+                            <br>關於我們</a>
+                    </li>
+                    <li class="ui-block-b">
+                        <a href="#price_page">
+                            <img src="img/price2.png" alt="">
+                            <br>種類價格</a>
+                    </li>
+                    <li class="ui-block-c">
+                        <a href="#order_page">
+                            <img src="img/order2.png" alt="">
+                            <br>立即下單</a>
+                    </li>
+                    <li class="ui-block-d">
+                        <a href="#member_page">
+                            <img src="img/member2.png" alt="">
+                            <br>會員專區</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--基本資料-->
+    <div data-role="page" id="file">
+        <div data-role="header" class="page_header">
+            <a href="#home_index" data-role="button" data-icon="home"></a>
+            <h1>基本資料</h1>
+            <a href="#" data-role="button" data-icon="back" data-rel="back"></a>
+        </div>
+        <div data-role="content" class="ui-corner-all member-content">
+            <form method="post" action="" id="sex">
+                <fieldset data-role="controlgroup" data-type="horizontal">
+                    <label for="male">男性</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="female">女性</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                </fieldset>
+            </form>
+            <form method="post" action="" style="padding:5px 15px">
+                <div data-role="fieldcontain" style="border:none">
+                    <label for="data-name">姓名</label>
+                    <input type="text" name="dataName" id="data-name">
+                    <label for="" style="margin-top:15px">手機</label>
+                    <p style="margin-top:-2px">0999999999</p>
+                    <label for="data-pw">E-mail</label>
+                    <input type="text" name="datapw" id="data-pw" placeholder="原來的mail">
+                    <label for="data-sendadd">收件住址</label>
+                    <input type="text" name="sendAdd" id="data-sendadd">
+                    <label for="data-getadd">取件住址</label>
+                    <input type="text" name="getAdd" id="data-getadd">
+                </div>
+            </form>
+            <div style="text-align:center">
+                <a href="#member_page" data-role="button" data-transition="fade" data-direction="reverse" data-inline="true" style="color:white;background:gray">取消返回</a>
+                <button type="submit" data-inline="true" class="confirm">確認送出</button>
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul class="ui-grid-c">
+                    <li class="ui-block-a">
+                        <a href="#about_page">
+                            <img src="img/about2.png" alt="">
+                            <br>關於我們</a>
+                    </li>
+                    <li class="ui-block-b">
+                        <a href="#price_page">
+                            <img src="img/price2.png" alt="">
+                            <br>種類價格</a>
+                    </li>
+                    <li class="ui-block-c">
+                        <a href="#order_page">
+                            <img src="img/order2.png" alt="">
+                            <br>立即下單</a>
+                    </li>
+                    <li class="ui-block-d">
+                        <a href="#member_page">
+                            <img src="img/member2.png" alt="">
+                            <br>會員專區</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--密碼變更-->
+    <div data-role="page" id="change-pw">
+        <div data-role="header" class="page_header">
+            <a href="#home_index" data-role="button" data-icon="home"></a>
+            <h1>密碼變更</h1>
+            <a href="#" data-role="button" data-icon="back" data-rel="back"></a>
+        </div>
+        <div data-role="content" style="margin:10px" class="ui-corner-all member-content">
+            <form method="post" action="" style="padding:5px 15px">
+                <div data-role="fieldcontain" style="border:none">
+                    <label for="myid">新密碼</label>
+                    <input type="text" name="sendid" id="sendid" placeholder="建議英文+數字至少六碼">
+                    <label for="mypw">密碼確認</label>
+                    <input type="text" name="sendpw" id="sendpw" placeholder="建議英文+數字至少六碼">
+                </div>
+            </form>
+            <div style="text-align:center">
+                <a href="#member_page" data-role="button" data-transition="fade" data-direction="reverse" data-inline="true" style="background:gray;color:white">取消返回</a>
+                <button type="submit" data-inline="true" class="confirm">確認送出</button>
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul class="ui-grid-c">
+                    <li class="ui-block-a">
+                        <a href="#about_page">
+                            <img src="img/about2.png" alt="">
+                            <br>關於我們</a>
+                    </li>
+                    <li class="ui-block-b">
+                        <a href="#price_page">
+                            <img src="img/price2.png" alt="">
+                            <br>種類價格</a>
+                    </li>
+                    <li class="ui-block-c">
+                        <a href="#order_page">
+                            <img src="img/order2.png" alt="">
+                            <br>立即下單</a>
+                    </li>
+                    <li class="ui-block-d">
+                        <a href="#member_page">
+                            <img src="img/member2.png" alt="">
+                            <br>會員專區</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--客服聯絡-->
+    <div data-role="page" id="qa">
+        <div data-role="header" class="page_header">
+            <a href="#home_index" data-role="button" data-icon="home"></a>
+            <h1>客服聯絡</h1>
+            <a href="#" data-role="button" data-icon="back" data-rel="back"></a>
+        </div>
+        <div data-role="content" class="ui-corner-all member-content">
+            <form method="post" action="" style="padding:5px 15px">
+                <div data-role="fieldcontain" style="border:none">
+                    <label for="qa-id">姓名</label>
+                    <input type="text" name="qaid" id="qa-id" placeholder="">
+                    <label for="qa-pw">電話</label>
+                    <input type="text" name="qapw" id="qa-pw" placeholder="原來電話">
+                    <label for="qa-mail">E-mail</label>
+                    <input type="text" name="qamail" id="qa-mail" placeholder="原來mail">
+                    <div data-role="fieldcontain">
+                        <label for="qa-txt">描述</label>
+                        <textarea name="qatxt" id="qa-txt"></textarea>
+                    </div>
+                </div>
+            </form>
+            <div style="text-align:center">
+                <a href="#member_page" data-role="button" data-transition="fade" data-direction="reverse" data-inline="true" style="background:gray;color:white">取消返回</a>
+                <button type="submit" data-inline="true" class="confirm">確認送出</button>
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul class="ui-grid-c">
+                    <li class="ui-block-a">
+                        <a href="#about_page">
+                            <img src="img/about2.png" alt="">
+                            <br>關於我們</a>
+                    </li>
+                    <li class="ui-block-b">
+                        <a href="#price_page">
+                            <img src="img/price2.png" alt="">
+                            <br>種類價格</a>
+                    </li>
+                    <li class="ui-block-c">
+                        <a href="#order_page">
+                            <img src="img/order2.png" alt="">
+                            <br>立即下單</a>
+                    </li>
+                    <li class="ui-block-d">
+                        <a href="#member_page">
+                            <img src="img/member2.png" alt="">
+                            <br>會員專區</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--登出會員-->
+    <div data-role="dialog" id="logout">
+        <div data-role="header">
+            <h1>Confirm</h1>
+        </div>
+        <div data-role="content">
+            <h2>確定登出?</h2>
+            <div style="text-align:center">
+                <a href="#" data-role="button" data-inline="true" style="width:25%">確定</a>
+                <a href="#member_page" data-role="button" data-inline="true" style="width:25%">取消</a>
+            </div>
+        </div>
+    </div>
+    <!-- member_page end -->
+    <!--time_page-->
+    <div data-role="page" id="time_page">
+        <div data-role="header" class="page_header">
+            <a href="#home_index" data-role="button" data-icon="home"></a>
+            <h1>收送時間</h1>
+            <a href="#" data-role="button" data-icon="back" data-rel="back"></a>
+        </div>
+        <div data-role="content">
+            <p>顧客交件：於一小時內會派人前往顧客所在地收件。從08:00~23:00，共16時段。</p>
+            <p>顧客取件：分09:00~12:00、12:00~15:00、15:00~18:00、18:00~21:00四個時段可選擇，普通</p>
+            <p>件2天會到，急件則1天。</p>
+            <p>取消訂單：取消訂單需於下單後20分鐘內進行取消，若公司已經派人前往取件，但下標者未出現</p>
+            <p>，則該會員加入黑名單。</p>
+            <p>訂單更改：顧客交件時若臨時增加件數，則手動修改訂單內容，再請物流業者回報總公司修正網</p>
+            <p>路訂單。顧客交件時若臨時減少件數，且修改後低於最低消費，則酌收運費100元。</p>
+            <p>最低消費：單筆訂單最低消費為300元</p>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul class="ui-grid-c">
+                    <li class="ui-block-a">
+                        <a href="#about_page">
+                            <img src="img/about2.png" alt="">
+                            <br>關於我們</a>
+                    </li>
+                    <li class="ui-block-b">
+                        <a href="#price_page">
+                            <img src="img/price2.png" alt="">
+                            <br>種類價格</a>
+                    </li>
+                    <li class="ui-block-c">
+                        <a href="#order_page">
+                            <img src="img/order2.png" alt="">
+                            <br>立即下單</a>
+                    </li>
+                    <li class="ui-block-d">
+                        <a href="#member_page">
+                            <img src="img/member2.png" alt="">
+                            <br>會員專區</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--price_page-->
+    <div data-role="page" id="price_page">
+        <div data-role="header" class="page_header">
+            <a href="index.html" data-role="button" data-icon="home"></a>
+            <h1>種類價格</h1>
+            <a href="#" data-role="button" data-icon="back" data-rel="back"></a>
+        </div>
+        <div data-role="content">
+            <form method="post" action="">
+                <fieldset data-role="fieldcontain">
+                    <label for="day">分類選項：</label>
+                    <select name="day" id="day" data-native-menu="false">
+                        <option value="show">顯示全部分類</option>
+                        <option value="fabrics">纖維Fabrics</option>
+                        <option value="leather">皮件Leather</option>
+                        <option value="shoes">鞋類Shoes</option>
+                        <option value="bags">包包類Bags</option>
+                        <option value="others">其它Others</option>
+                    </select>
+                </fieldset>
+            </form>
+            <div class="ui-grid-b" style="text-align:center">
+                <div class="ui-block-a" style="text-align:left">
+                    <img src="img/price/wash2.jpg" alt="">
+                </div>
+                <div class="ui-block-b">
+                    <img src="img/price/washitem.jpg" alt="">
+                </div>
+                <div class="ui-block-c" style="text-align:right">
+                    <img src="img/price/wash1.jpg" alt="">
+                </div>
+            </div>
+            <div class="bg1">
+                <span>襯衫</span>
+                <p class="r mr-top">100</p>
+                <p class="l mr-top">50</p>
+            </div>
+            <div class="bg2">
+                <span>外套</span>
+                <p class="r mr-top">100</p>
+                <p class="l mr-top">50</p>
+            </div>
+            <div class="bg1">
+                <span>襯衫</span>
+                <p class="r mr-top">100</p>
+                <p class="l mr-top">50</p>
+            </div>
+            <div class="bg2">
+                <span>外套</span>
+                <p class="r mr-top">100</p>
+                <p class="l mr-top">50</p>
+            </div>
+            <div class="bg1">
+                <span>襯衫</span>
+                <p class="r mr-top">100</p>
+                <p class="l mr-top">50</p>
+            </div>
+            <div class="bg2">
+                <span>外套</span>
+                <p class="r mr-top">100</p>
+                <p class="l mr-top">50</p>
+            </div>
+            <div class="bg1">
+                <span>襯衫</span>
+                <p class="r mr-top">100</p>
+                <p class="l mr-top">50</p>
+            </div>
+            <div class="bg2">
+                <span>外套</span>
+                <p class="r mr-top">100</p>
+                <p class="l mr-top">50</p>
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul class="ui-grid-c">
+                    <li class="ui-block-a">
+                        <a href="#about_page">
+                            <img src="img/about2.png" alt="">
+                            <br>關於我們</a>
+                    </li>
+                    <li class="ui-block-b">
+                        <a href="#price_page">
+                            <img src="img/price2.png" alt="">
+                            <br>種類價格</a>
+                    </li>
+                    <li class="ui-block-c">
+                        <a href="#order_page">
+                            <img src="img/order2.png" alt="">
+                            <br>立即下單</a>
+                    </li>
+                    <li class="ui-block-d">
+                        <a href="#member_page">
+                            <img src="img/member2.png" alt="">
+                            <br>會員專區</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--order_page-->
+    <div data-role="page" id="order_page">
+        <div data-role="header" class="page_header">
+            <a href="#home_index" data-role="button" data-icon="home"></a>
+            <h1>立即下單</h1>
+            <a href="#" data-role="button" data-icon="back" data-rel="back"></a>
+        </div>
+        <div data-role="content">
+            <table>
+                <tr>
+                    <td class="day_bg">
+                        <span style="color:red">*</span>收件</td>
+                    <td>
+                        <div class="ui-grid-a got-day">
+                            <div class="ui-block-a">
+                                <p>2015-02-20</p>
+                                <p>2015-02-22</p>
+                                <p>2015-02-24</p>
+                                <p>2015-02-26</p>
+                            </div>
+                            <div class="ui-block-b">
+                                <p>2015-02-21</p>
+                                <p>2015-02-23</p>
+                                <p>2015-02-25</p>
+                                <p>2015-02-27</p>
+                            </div>
+                        </div>
+                        <form method="post" action="demoform.asp">
+                            <fieldset data-role="fieldcontain">
+                                <select name="got-day" id="got-day">
+                                    <optgroup label="----2015-02-27----">
+                                        <option value="mon">2015-02-27 09:00~12:00</option>
+                                        <option value="tue">2015-02-27 12:00~15:00</option>
+                                        <option value="wed">2015-02-27 15:00~18:00</option>
+                                        <option value="thu">2015-02-27 18:00~21:00</option>
+                                    </optgroup>
+                                    <optgroup label="----2015-02-28----">
+                                        <option value="mon">2015-02-28 09:00~12:00</option>
+                                        <option value="tue">2015-02-28 12:00~15:00</option>
+                                        <option value="wed">2015-02-28 15:00~18:00</option>
+                                        <option value="thu">2015-02-28 18:00~21:00</option>
+                                    </optgroup>
+                                </select>
+                            </fieldset>
+                        </form>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="day_bg">
+                        <span style="color:red">*</span>送件</td>
+                    <td>
+                        <form method="post" action="demoform.asp">
+                            <fieldset data-role="fieldcontain">
+                                <select name="send-day" id="send-day">
+                                    <optgroup label="----2015-02-27----">
+                                        <option value="mon">2015-02-27 09:00~12:00</option>
+                                        <option value="tue">2015-02-27 12:00~15:00</option>
+                                        <option value="wed">2015-02-27 15:00~18:00</option>
+                                        <option value="thu">2015-02-27 18:00~21:00</option>
+                                    </optgroup>
+                                    <optgroup label="----2015-02-28----">
+                                        <option value="mon">2015-02-28 09:00~12:00</option>
+                                        <option value="tue">2015-02-28 12:00~15:00</option>
+                                        <option value="wed">2015-02-28 15:00~18:00</option>
+                                        <option value="thu">2015-02-28 18:00~21:00</option>
+                                    </optgroup>
+                                </select>
+                            </fieldset>
+                        </form>
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+            <table class="list" style="width:100%">
+                <tr>
+                    <th>項目</th>
+                    <th>方式</th>
+                    <th>金額</th>
+                    <th>數量</th>
+                    <th style="width:20%">
+                        <a href="#" style="color:black">+增加</a>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <form method="post" action="">
+                            <fieldset data-role="fieldcontain">
+                                <select name="washitem" id="wash_item" data-native-menu="false">
+                                    <option value="item">項目</option>
+                                    <option value="a">領帶</option>
+                                    <option value="b">洋裝</option>
+                                    <option value="c">夾克</option>
+                                    <option value="d">裙子</option>
+                                    <option value="e">毛衣</option>
+                                </select>
+                            </fieldset>
+                        </form>
+                    </td>
+                    <td>
+                        <form method="post" action="">
+                            <fieldset data-role="fieldcontain">
+                                <select name="washway" id="wash_way" data-native-menu="false">
+                                    <option value="way">方式</option>
+                                    <option value="dry">乾洗</option>
+                                    <option value="water">水洗</option>
+                                </select>
+                            </fieldset>
+                        </form>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+            <table style="width:100%;font-size:18px;text-align:center">
+                <tr>
+                    <td style="width:70%">跨區過費</td>
+                    <td>0</td>
+                    <td>元</td>
+                </tr>
+                <tr>
+                    <td>目前消費金額</td>
+                    <td>0</td>
+                    <td>元</td>
+                </tr>
+            </table>
+            <p style="text-align:center;font-size:30px">訂購資料設定/填寫</p>
+            <table class="write" style="width:100%">
+                <tr>
+                    <td>
+                        <span style="color:red">*</span>收件人</td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span style="color:red">*</span>收件區域</td>
+                    <td>
+                        <form method="post" action="">
+                            <fieldset data-role="fieldcontain">
+                                <select name="getarea" id="getarea" data-native-menu="false">
+                                    <option value="choice">請選擇</option>
+                                    <option value="taipei">台北</option>
+                                    <option value="newtaipei">新北市</option>
+                                    <option value="Hsinchu">新竹</option>
+                                    <option value="taichung">台中</option>
+                                    <option value="kaoshiung">高雄</option>
+                                </select>
+                            </fieldset>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span style="color:red">*</span>收件地址</td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span style="color:red">*</span>送件區域</td>
+                    <td>
+                        <form method="post" action="">
+                            <fieldset data-role="fieldcontain">
+                                <select name="sendarea" id="sendarea" data-native-menu="false">
+                                    <option value="choice">請選擇</option>
+                                    <option value="taipei">台北</option>
+                                    <option value="newtaipei">新北市</option>
+                                    <option value="Hsinchu">新竹</option>
+                                    <option value="taichung">台中</option>
+                                    <option value="kaoshiung">高雄</option>
+                                </select>
+                            </fieldset>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span style="color:red">*</span>送件地址</td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span style="color:red">*</span>聯繫電話</td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span style="color:red">*</span>E-mail</td>
+                    <td>
+                        <input type="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>備註</td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+            </table>
+            <div>
+                <button type="submit">送出訂單</button>
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul class="ui-grid-c">
+                    <li class="ui-block-a">
+                        <a href="#about_page">
+                            <img src="img/about2.png" alt="">
+                            <br>關於我們</a>
+                    </li>
+                    <li class="ui-block-b">
+                        <a href="#price_page">
+                            <img src="img/price2.png" alt="">
+                            <br>種類價格</a>
+                    </li>
+                    <li class="ui-block-c">
+                        <a href="#order_page">
+                            <img src="img/order2.png" alt="">
+                            <br>立即下單</a>
+                    </li>
+                    <li class="ui-block-d">
+                        <a href="#member_page">
+                            <img src="img/member2.png" alt="">
+                            <br>會員專區</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--end-->
+</body>
+
+</html>
